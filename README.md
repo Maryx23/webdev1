@@ -53,5 +53,5 @@ I am a first-year Web Development student who is interested in learning how to b
 
 ## Fun Fact
 
-I enjoy learning new technologies and exploring how websites work behind the scenes.
-Halimaw ako mag core
+* I enjoy learning new technologies and exploring how websites work behind the scenes.
+* Halimaw ako mag core
