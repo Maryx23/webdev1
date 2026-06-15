@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2A36;
+    font-family: 'Georgia', serif;
+    color: #E7DCCF;
+}
+
+h1 {
+    color: #FFF1B6;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #FFF1B6;
+    line-height: 1.5;
+}
+
+p {
+    color: #E7DCCF;
+}
+
+a {
+    text-decoration: none;
+    color: #C1DBE8;
+}
+
+nav a:hover {
+    background-color: #C8BAA2;
+    color: #1F2A36;
+}
+
+.feature-card {
+    background-color: white;
+    border: 1px solid #cccccc;
+    color: #1F2A36;
+}
+
+.text-highlight {
+    font-weight: bold;
+    color: #FFF1B6;
+}
