@@ -39,7 +39,6 @@ main {
 
 .stats-row {
     display: flex;
-    width: 300px;
     background-color: #1E1B4B;
     border-radius: 10px;
     overflow: hidden;
