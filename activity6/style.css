@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 40px;
+    gap: 20px;
 }
 .ui-badge {
     background-color: #E0F2FE;
