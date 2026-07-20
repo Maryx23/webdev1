@@ -1,65 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>activity8</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-    <div class="profile-card">
-        <div class="avatar-blue">JD</div>
-        <div class="profile-name">Jane Dela Cruz</div>
-        <div class="profile-role">UI/UX Designer</div>
+    <div class="profile-container">
+        <article class="profile-box">
+            <p class="profile">JD</p>
+            <h2 class="name">Jane Dela Cruz</h2>
+            <p class="job">UI/UX Designer</p>
+        </article>
     </div>
 
-    <div class="pricing-row">
-        <div class="pricing-card">
-            <div class="tier-label">BASIC</div>
-            <div class="price-value">₱299<span class="price-period">/mo</span></div>
+    <div class="price-container">
+        <div class="price-box">
+            <span class="basic-price">BASIC</span>
+            <div class="price-row">
+                <h2 class="price">₱299</h2>
+                <span class="period">/mo</span>
+            </div>
         </div>
-        <div class="pricing-card">
-            <div class="tier-label">PRO</div>
-            <div class="price-value">₱599<span class="price-period">/mo</span></div>
-        </div>
-        <div class="pricing-card">
-            <div class="tier-label">PREMIUM</div>
-            <div class="price-value">₱999<span class="price-period">/mo</span></div>
-        </div>
-    </div>
 
-    <div class="navbar">
-        <div class="logo">Brandly</div>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
+        <div class="price-box">
+            <span class="basic-price">PRO</span>
+            <div class="price-row">
+                <h2 class="price">₱599</h2>
+                <span class="period">/mo</span>
+            </div>
         </div>
-        <button class="nav-button">Sign Up</button>
-    </div>
 
-    <div class="comment-block">
-        <div class="avatar-orange">MR</div>
-        <div class="comment-content">
-            <div class="comment-author">Mark Reyes</div>
-            <div class="comment-text">
-                This tutorial finally made flexbox click for me. The visual examples really helped — thanks!
+        <div class="price-box">
+            <span class="basic-price">PREMIUM</span>
+            <div class="price-row">
+                <h2 class="price">₱999</h2>
+                <span class="period">/mo</span>
             </div>
         </div>
     </div>
 
-    <div class="tag-container">
-        <span class="tag">HTML</span>
-        <span class="tag">CSS</span>
-        <span class="tag">JavaScript</span>
-        <span class="tag">Flexbox</span>
-        <span class="tag">Responsive Design</span>
-        <span class="tag">Git</span>
+    <div class="nav-container">
+        <nav class="nav-box">
+            <h3 class="brand">Brandly</h3>
+            <ul class="sub-nav">
+                <a href="#" class="main-nav">Home</a>
+                <a href="#" class="main-nav">About</a>
+                <a href="#" class="main-nav">Services</a>
+            </ul>
+            <button class="signup">Sign Up</button>
+        </nav>
     </div>
 
+    <div class="comment-container">
+        <div class="comment-box">
+            <div class="avatar">MR</div>
+            <div class="comment-content">
+                <span class="comment-name">Mark Reyes</span>
+                <p class="comment-text">
+                    This tutorial finally made flexbox click for me. The visual examples
+                    really helped — thanks!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="tags-container">
+        <div class="tags-box">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">Responsive Design</span>
+            <span class="tag">Git</span>
+        </div>
+    </div>
 </body>
 
 </html>
